@@ -1,0 +1,58 @@
+/* PC */
+@media (min-width:69.625em) {
+    .m-c__nav {
+        display: none;
+    }
+}
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 69.5625em) {
+    .wide{
+        width: 100%;
+        padding: 0px 16px;
+    }
+    .slider__content-wrapper {
+        display: none;
+    }
+    #header {
+        margin-top: 84px;
+    }
+    #selling-section .selling-item .buy__btn {
+        position: relative;
+        top: none;
+        transform: none;
+        width: 100%;
+        transform: translateX(-50%);
+        padding: 18px 16px;
+        display: block;
+       }
+}
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .t-c {
+        text-align: center;
+    }
+   #store {
+        text-align: center;
+   }
+   .store__icon {
+        justify-content: center;
+   }
+   #wrapper {
+    padding: 0px 12px;
+   }
+   #selling-section .selling-item .buy__btn {
+    position: relative;
+    top: none;
+    transform: none;
+    width: 100%;
+    transform: translateX(-50%);
+    padding: 18px 16px;
+    display: block;
+   }
+   .slider__content-wrapper {
+    display: none;
+   }
+   #header {
+    margin-top: 84px;
+   }
+}

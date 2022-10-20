@@ -1,0 +1,13 @@
+Để chia web làm 2, một bên fixed, ta sử dụng overflow:auto; để tạo scroll-bar
+#nav {
+    z-index: 3;
+    height: 100%;
+    position: fixed;
+    display: block;
+    top: 0;
+    overflow: auto;
+}
+#main {
+    position: relative;
+    left: 25%;
+}
